@@ -44,5 +44,3 @@ def print_operation_table(operation, num_rows, num_сolumns):
 line = int(input("Введите количество строк: "))
 columns = int(input("Введите количество столбцов: "))
 print_operation_table(lambda x,y: x*y,line,columns)
-
-
